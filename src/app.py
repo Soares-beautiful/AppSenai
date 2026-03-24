@@ -1,5 +1,3 @@
-from cProfile import label
-
 import flet
 from flet import ThemeMode, Text, TextTheme, TextField, Button, OutlinedButton, Column, CrossAxisAlignment, \
     NumbersOnlyInputFilter, Container, Colors, FontWeight, MainAxisAlignment
@@ -45,7 +43,7 @@ def main(page: flet.Page):
     input_nome = TextField(label="Nome")
     input_sobrenome = TextField(label="sobrenome",)
     text_parimpar = Text("Digite um numero")
-    text_idade = Text("Digite uma idadel")
+    text_idade = Text("Digite uma idade")
     num = TextField(label='Verificar par ou impar')
     input_idade = TextField(label='Digite o ano de seu nascimento', hint_text="Ex:2000")
     btn_verificar_idade = OutlinedButton('Verificar idade', on_click=idade)
